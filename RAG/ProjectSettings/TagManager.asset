@@ -10,6 +10,8 @@ TagManager:
   - 2
   - 3
   - 4
+  - In
+  - Out
   layers:
   - Default
   - TransparentFX
