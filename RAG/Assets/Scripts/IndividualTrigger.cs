@@ -6,6 +6,11 @@ public class IndividualTrigger : MonoBehaviour
 {
 
 	public TransitionTrigger trans;
+	
+	public AudioSource SwitchSource1;
+	public AudioSource SwitchSource2;
+	public AudioSource SwitchSource3;
+	public AudioSource SwitchSource4;
 
 	private void Awake()
 	{

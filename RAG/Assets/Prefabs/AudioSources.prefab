@@ -117,6 +117,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -132,6 +133,7 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -149,6 +151,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -164,6 +167,7 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -414,10 +418,15 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 194eab1110057fd4892eda576ecf3e5e, type: 3}
   currentStem1: {fileID: 0}
   currentStem2: {fileID: 0}
+  indicatorPt1: {fileID: 8300000, guid: 7821aaf0463bb0541a37ea3dfd372854, type: 3}
+  indicatorPt2: {fileID: 8300000, guid: 08af6636bf3b47e429687b8b87c0cbbf, type: 3}
   randomStem1: 0
   randomStem2: 0
+  randomStemPt2_1: 0
+  randomStemPt2_2: 0
   stem1: {fileID: 82252365128517644}
   stem2: {fileID: 82795558495380390}
+  indicator: {fileID: 82034848491930826, guid: dcd25a62891879341bfb0883759ae43a, type: 2}
 --- !u!114 &114536456440419152
 MonoBehaviour:
   m_ObjectHideFlags: 1

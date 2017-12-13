@@ -12,6 +12,8 @@ TagManager:
   - 4
   - In
   - Out
+  - Wall
+  - Indicator
   layers:
   - Default
   - TransparentFX

@@ -68,3 +68,5 @@ JetBrains.meta
 */JetBrains/*
 *.idea
 RAG/Assets/ProCore/
+
+*.meta
